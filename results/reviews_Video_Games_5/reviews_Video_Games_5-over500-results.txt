@@ -1,0 +1,16 @@
+Test accuracy:0.8695651888847351
+Test loss:0.36519327759742737
+
+[[ 3  2]
+ [ 1 17]]
+
+              precision    recall  f1-score   support
+
+     Class 0       0.75      0.60      0.67         5
+     Class 1       0.89      0.94      0.92        18
+
+   micro avg       0.87      0.87      0.87        23
+   macro avg       0.82      0.77      0.79        23
+weighted avg       0.86      0.87      0.86        23
+
+

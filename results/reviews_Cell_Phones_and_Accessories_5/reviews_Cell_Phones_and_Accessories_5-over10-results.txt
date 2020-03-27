@@ -1,0 +1,27 @@
+Classification with:
+features number = 100
+loss = binary_crossentropy
+optimizer = rmsprop
+metrics = accuracy
+epochs = 500
+batch_size = 512
+validation_split = 0.1
+
+Test accuracy:0.8395415477333689
+Test loss:0.46278580283139475
+
+[[ 26 130]
+ [ 38 853]]
+
+              precision    recall  f1-score   support
+
+     Class 0       0.41      0.17      0.24       156
+     Class 1       0.87      0.96      0.91       891
+
+   micro avg       0.84      0.84      0.84      1047
+   macro avg       0.64      0.56      0.57      1047
+weighted avg       0.80      0.84      0.81      1047
+
+
+========================================================
+

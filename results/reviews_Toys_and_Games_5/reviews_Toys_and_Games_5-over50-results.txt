@@ -1,0 +1,58 @@
+Classification with:
+features number = 100
+loss = binary_crossentropy
+optimizer = rmsprop
+metrics = accuracy
+epochs = 500
+batch_size = 512
+validation_split = 0.1
+
+Test accuracy:0.9341563582420349
+Test loss:0.39449381828308105
+
+Elapsed time (learning): 00:00:18
+
+[[  4   8]
+ [  8 223]]
+
+              precision    recall  f1-score   support
+
+     Class 0       0.33      0.33      0.33        12
+     Class 1       0.97      0.97      0.97       231
+
+   micro avg       0.93      0.93      0.93       243
+   macro avg       0.65      0.65      0.65       243
+weighted avg       0.93      0.93      0.93       243
+
+
+========================================================
+
+Classification with:
+features number = 200
+loss = binary_crossentropy
+optimizer = rmsprop
+metrics = accuracy
+epochs = 500
+batch_size = 512
+validation_split = 0.1
+
+Test accuracy:0.9341563582420349
+Test loss:0.48609498143196106
+
+Elapsed time (learning): 00:00:16
+
+[[  2  10]
+ [  6 225]]
+
+              precision    recall  f1-score   support
+
+     Class 0       0.25      0.17      0.20        12
+     Class 1       0.96      0.97      0.97       231
+
+   micro avg       0.93      0.93      0.93       243
+   macro avg       0.60      0.57      0.58       243
+weighted avg       0.92      0.93      0.93       243
+
+
+========================================================
+
